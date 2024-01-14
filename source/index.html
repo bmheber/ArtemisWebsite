@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173584237-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-173584237-1');
+  </script>
+
+  <!-- UIKit Core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css"/>
+
+  <!-- UIKit JS and Icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+
+  <!-- Custom Fonts + CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700"/>
+  <link rel="stylesheet" type="text/css" href="templates/css/main.css"/>
+</head>
+
+<body>
+  <div class="uk-offcanvas-content">
+    <div id="mobile-nav" uk-offcanvas="overlay: true; flip: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav">
+          <li class="uk-nav-header">Menu</li>
+          <li><a href="#about" uk-scroll><span class="uk-margin-small-right" uk-icon="icon: user"></span>About</a></li>
+          <li><a href="#portfolio" uk-scroll><span class="uk-margin-small-right" uk-icon="icon: code"></span>Portfolio</a></li>
+          <li><a href="#skills" uk-scroll><span class="uk-margin-small-right" uk-icon="icon: list"></span>Services</a></li>
+          <li><a href="#contact" uk-scroll><span class="uk-margin-small-right" uk-icon="icon: mail"></span>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class=" uk-background-cover uk-background-center-center" style="background-image: url(templates/img/sunset_bw.jpg);" <div uk-height-viewport="offset-bottom:0 ">
+      <div class="uk-position-top">
+        <div uk-sticky="animation: uk-animation-slide-top-small; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 50">
+          <nav class="uk-navbar-container uk-navbar-transparent uk-visible@s" uk-navbar>
+            <div class="uk-navbar-center">
+              <ul class="uk-iconnav">
+                <li><a href="#about" uk-icon="icon: user; ratio: 2" title="About" uk-tooltip="pos: bottom" uk-scroll></a></li>
+                <li><a href="#portfolio" uk-icon="icon: folder; ratio: 2" title="Portfolio" uk-tooltip="pos: bottom" uk-scroll></a></li>
+                <li><a href="#skills" uk-icon="icon: code; ratio: 2" title="Skills" uk-tooltip="pos: bottom" uk-scroll></a></li>
+                <li><a href="#contact" uk-icon="icon: mail; ratio: 2" title="Contact" uk-tooltip="pos: bottom" uk-scroll></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div uk-sticky="animation: uk-animation-slide-top-small; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 50">
+          <nav class="uk-navbar-container uk-navbar-transparent uk-hidden@s" uk-navbar>
+            <div class="uk-navbar-right">
+              <!-- <ul class="uk-iconnav">
+                <li><a href="#" class="uk-padding-small" uk-icon="icon: menu; ratio: 1.25" uk-toggle="target: #mobile-nav"></a></li>
+              </ul> -->
+              <ul class="uk-navbar-nav">
+                <li><a href="#" uk-toggle="target: #mobile-nav" uk-navbar-toggle-icon></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class=" uk-position-center uk-text-center uk-light" uk-scrollspy="cls: uk-animation-slide-top-small; target: > span > ; delay: 1000">
+        <span><h1 class=" uk-position-small uk-heading-primary">Artemis Technology</h1></span>
+        <span><h3 id="intro-text"> Small company supporting the IC </h3></span>
+      </div>
+    </div>
+
+    <div class="uk-section uk-section-default" id="about">
+      <div class="uk-container uk-width-3-4@m uk-text-center">
+        <h1 class="uk-heading-primary uk-text-left uk-text-bold">ABOUT THE COMPANY</h1>
+        <h4 class="uk-text-left">
+          Artemis Technology is a woman-owned start-up company offering innovative, agile, and cost-effective solutions leveraging data science and cybersecurity expertise.
+        </h4>
+        <h4 class="uk-text-left">
+          With access to a strong network of developers and data scientists, we are eager to support the client and mission requirements.
+        </h4>
+        <h4 class="uk-text-left">
+          As a young and growing company, we have unparalleled potential and determination to succeed.
+        </h4>
+        <h4 class="uk-text-left">
+          The company is seeking a subcontract to foster a mutually beneficial partnership.
+        </h4>
+      </div>
+    </div>
+
+    <!-- <div class="uk-section uk-section-default" id="about">
+      <div class="uk-container uk-width-3-4@m uk-text-center">
+        <h1 class="uk-heading-primary uk-text-left uk-text-bold">ABOUT ME </h1>
+        <h4 class="uk-text-left">
+          Bailey Jones LLC is a woman owned start-up company offering innovative, agile, and cost-effective solutions leveraging data science and cybersecurity expertise.
+        </h4>
+        <h4 class="uk-text-left">
+          With access to a strong network of programmers, system administrators, cybersecurity specialists, and data scientists, we are eager to support the client and mission requirements.
+        </h4>
+        <h4 class="uk-text-left">
+          As a young and growing company, we have unparalleled potential and determination to succeed.
+        </h4>
+        <h4 class="uk-text-left">
+          The company is seeking a subcontract to foster a mutually beneficial partnership.
+        </h4>
+      </div>
+    </div> -->
+
+    <div class="uk-section uk-section-secondary" id="portfolio">
+      <div class="uk-container uk-width-3-4@m">
+        <h1 class="uk-heading-primary uk-text-left uk-text-bold uk-margin-medium-bottom">PORTFOLIO</h1>
+        <div class="uk-child-width-1-2@m" uk-grid>
+          <div>
+            <div class="uk-card uk-card-hover uk-card-secondary uk-box-shadow-xlarge uk-text-center ">
+              <div class="uk-card-header">
+                <h3 class="uk-card-title">Association Rule Mining </h3>
+              </div>
+              <div class="uk-card-media-top">
+                <div class= uk-grid uk-lightbox="animation: slide"> <div>
+                  <a class="uk-inline" href="templates/img/rules.JPG" data-caption="Caption 1">
+                    <img src="templates/img/rules.JPG" alt="">
+                  </a>
+                </div>
+                </div>
+              </div>
+              <div class="uk-card-body">
+                <p class="uk-text-left">
+                  Association rule mining in conjunction with the apriori algorithm is a common technique used by large retailers such as Amazon to analyze customer purchasing behavior. The rules illustrate what items are frequently bought together.  In this particular example, we used data published from Instacart- the online grocery store.
+
+                </p>
+                <p class="uk-text-left">
+                 This project was built using R, Shiny, and Arules. Check out it out here https://lbrandgroupgo.shinyapps.io/Lbrands/
+                </p>
+                <div>
+                  <a href="https://git.netsecure.dev/Prongs/managed" class="uk-icon-button uk-margin-small-right" uk-icon="icon: git-branch" title="Code" uk-tooltip="pos: bottom" target="_blank" rel="noopener noreferrer"></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-hover uk-card-secondary uk-box-shadow-xlarge uk-text-center">
+              <div class="uk-card-header">
+                <h3 class="uk-card-title">LDA Model </h3>
+              </div>
+              <div class="uk-card-media-top">
+                <div class= uk-grid uk-lightbox="animation: slide"> <div>
+                  <a class="uk-inline" href="templates/img/lda.JPG" data-caption="">
+                    <img src="templates/img/lda.JPG" alt="">
+                  </a>
+                </div>
+              </div>
+              </div>
+              <div class="uk-card-body">
+                <p class="uk-text-left">
+                  The Latent Dirichlet Allocation (LDA) model is a statistical model that sorts documents into topics. This technique is incredibly useful as LDA allows the user to understand a large amount of data without actually reading every document.
+                <p class="uk-text-left">
+                  For this project we used the Enron company's emails to attempt to find a topic of fraud.
+                  The next steps of this project will be to use SpaCys tagging of speech capability to flag the nouns and perform entity extraction to find names and addresses.
+
+                </p>
+                <div>
+                  <a href="https://git.netsecure.dev/Dumbledore/Whomping-Willow" class="uk-icon-button uk-margin-small-right" uk-icon="icon: git-branch" title="Code" uk-tooltip="pos: bottom" target="_blank" rel="noopener noreferrer"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="uk-section" id="skills">
+      <div class=" uk-container uk-width-3-4@m">
+        <h1 class="uk-heading uk-text-left uk-text-bold">SERVICES</h1>
+
+          <div> <h4> Programming Languages</h4>
+          <ul class="uk-list uk-list-striped uk-text-left">
+            <li> Python, R, Bash, SQL, HTML, CSS </li>
+          </ul>
+        </div>
+
+        <div> <h4> Machine Learning Algorithms</h4>
+          <ul class="uk-list uk-list-striped uk-text-left">
+            <li> Regression Analysis, K-Means Clustering, Topic Modeling, Sentiment Analysis, Association Rule Learning
+ </li>
+          </ul>
+        </div>
+        <div> <h4> Cloud Computing </h4>
+          <ul class="uk-list uk-list-striped uk-text-left">
+            <li> AWS, Azure, Docker, Databricks </li>
+          </ul>
+        </div>
+        <div> <h4> OS </h4>
+          <ul class="uk-list uk-list-striped uk-text-left">
+            <li>  Windows & Linux  </li>
+          </ul>
+        </div>
+        <div> <h4> Visualizations </h4>
+          <ul class="uk-list uk-list-striped uk-text-left">
+            <li> Tableau, Excel  </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="uk-section uk-section-secondary" id="contact">
+      <div class="uk-container uk-width-3-4m uk-text-center">
+        <a id="ClearenceJobs" href="https://www.clearancejobs.com/profile/" class="uk-margin-small-right" uk-icon="icon: star; ratio: 2" title="ClearanceJobs"  target="_blank" rel="noopener noreferrer" uk-tooltip></a>
+        <a id="linkedin" href="https://www.linkedin.com/in/bailey-jones-3738ba140/" class="uk-margin-small-right" uk-icon="icon: linkedin; ratio: 2" title="LinkedIn" target="_blank" rel="noopener noreferrer" uk-tooltip></a>
+        <a id="github" href="https://git.netsecure.dev/Prongs" class="uk-margin-small-right" uk-icon="icon: github; ratio: 2" title="GitHub" target="_blank" rel="noopener noreferrer" uk-tooltip></a>
+        <a id="email" href="mailto:Bailey@artemistechnologyllc.com" uk-icon="icon: mail; ratio: 2" title="Email" uk-tooltip></a>
+        <p class="uk-text-small">&copy; Artemis Technology LLC 2021</p>
+      </div>
+    </div>
+</body>
+</html>
