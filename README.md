@@ -1,1 +1,1 @@
-Created using CSS -> UIKIT (https://getuikit.com/docs/section) 
+Created using UIKIT -> https://getuikit.com/docs/section
