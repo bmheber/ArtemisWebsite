@@ -14,13 +14,6 @@ body {
   filter: alpha(opacity=80);
 }
 
-.uk-section-secondary {
-  background-color: #FFC1C6;
-}
-.uk-card-secondary {
-  background-color: #999;
-}
-
 .uk-navbar-container:not(.uk-navbar-transparent) > div > .uk-iconnav > li {
   border-right: 1px solid #999;
 }
